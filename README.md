@@ -2,7 +2,7 @@
 
 ## Building
 
-### 1. mkdir build && cmake -B build -G "Ninja" -DCMAKE_CXX_FLAGS="-O3 --std=c++23 -static -Wl,-s" build .
+### 1. mkdir build && cmake -B build -G "MinGW Makefiles" .
 
 ### 2. cd build && cmake --build . --parallel 16 --config Release
 
