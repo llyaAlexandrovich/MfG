@@ -478,7 +478,7 @@ TEST(Expm1Test, Expm1Test_3) {
 }
 
 // ========================================
-// math::pythonlike::powexplog::log (натуральный)
+// math::pythonlike::powexplog::log
 // ========================================
 TEST(LogTest, LogTest_1) {
     ASSERT_NEAR(math::pythonlike::powexplog::log(1.0), 0.0, 1e-9);
@@ -493,7 +493,7 @@ TEST(LogTest, LogTest_3) {
 }
 
 // ========================================
-// math::pythonlike::powexplog::log (с основанием)
+// math::pythonlike::powexplog::log
 // ========================================
 TEST(LogBaseTest, LogBaseTest_1) {
     ASSERT_NEAR(math::pythonlike::powexplog::log(8.0, 2.0), 3.0, 1e-9);
